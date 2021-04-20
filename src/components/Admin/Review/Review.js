@@ -17,7 +17,7 @@ const Review = () => {
             serviceName: data.service,
             review: data.details
         }
-        fetch('http://localhost:5000/addReview', {
+        fetch('https://morning-sands-88518.herokuapp.com/addReview', {
             method:'POST',
             headers: {
                 'content-type': "application/json"

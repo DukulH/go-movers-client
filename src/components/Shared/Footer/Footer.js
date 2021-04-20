@@ -7,7 +7,7 @@ const Footer = () => {
     const [serviceDetails, setServiceDetails] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://morning-sands-88518.herokuapp.com/services')
             .then(response => response.json())
             .then(data => setServiceDetails(data))
     }, [serviceDetails])

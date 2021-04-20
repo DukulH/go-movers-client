@@ -17,7 +17,7 @@ const ServiceAdd = () => {
             serviceDetails: data.serviceDetails,
             serviceImage: imageURL,
         }
-        fetch('http://localhost:5000/addService', {
+        fetch('https://morning-sands-88518.herokuapp.com/addService', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'

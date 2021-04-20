@@ -10,13 +10,13 @@ const ManageService = () => {
     const [serviceDetails, setServiceDetails] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://morning-sands-88518.herokuapp.com/services')
             .then(response => response.json())
             .then(data => setServiceDetails(data))
     }, [serviceDetails])
 
     const handleDeleteProduct = (key) => {
-        fetch(`http://localhost:5000/deleteService/${key}`, {
+        fetch(`https://morning-sands-88518.herokuapp.com/deleteService/${key}`, {
             method: 'DELETE',
         })
             .then(response => response.json())

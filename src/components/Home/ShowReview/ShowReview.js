@@ -9,7 +9,7 @@ const ShowReview = () => {
     const [reviewData, setReviewData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/getReview')
+        fetch('https://morning-sands-88518.herokuapp.com/getReview')
             .then(response => response.json())
             .then(data => setReviewData(data))
     }, [reviewData])

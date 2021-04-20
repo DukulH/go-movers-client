@@ -26,7 +26,7 @@ const Orders = () => {
 
     }
     useEffect(() => {
-        fetch('http://localhost:5000/isAdmin', {
+        fetch('https://morning-sands-88518.herokuapp.com/isAdmin', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -38,7 +38,7 @@ const Orders = () => {
     }, [])
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders', {
+        fetch('https://morning-sands-88518.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

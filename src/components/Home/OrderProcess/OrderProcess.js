@@ -18,7 +18,7 @@ const OrderProcess = () => {
     const [orderDetails, setOrderDetails] = useState({});
     const [paymentProcessClicked, setPaymentProcessClicked] = useState(false);
     useEffect(() => {
-        fetch(`http://localhost:5000/orderDetails/${id}`)
+        fetch(`https://morning-sands-88518.herokuapp.com/orderDetails/${id}`)
             .then(response => response.json())
             .then(data => {
                 setOrderDetails(data)
@@ -27,7 +27,7 @@ const OrderProcess = () => {
     const handleOrderInfo = (paymentId) => {
         orderDetails._id = null;
         const info = { ...loggedInUser, ...orderDetails, paymentID: paymentId, status: 'Pending', date: new Date()};
-        fetch('http://localhost:5000/addOrder',{
+        fetch('https://morning-sands-88518.herokuapp.com/addOrder',{
             method:'POST',
             headers: {
                 'content-type': 'application/json'
