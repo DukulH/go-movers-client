@@ -1,0 +1,14 @@
+.imgStyle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.imgStyle img{
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

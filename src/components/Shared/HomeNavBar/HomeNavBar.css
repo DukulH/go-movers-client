@@ -1,0 +1,29 @@
+.Design{
+    color: #122333;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Design:hover{
+    color: #ED4C20;
+}
+.BtnStyle{ 
+    color: white;
+    background-color: #ED4C20;
+    padding: 10px 15px;
+    border: none;
+}
+.navBtnStyle{
+    color: white;
+    background-color: #122333;
+    padding: 10px 25px;
+    border: none;
+    text-align: center;
+    background: linear-gradient(to left, #ED4C20 50%, #122333 50%) right;
+    background-size: 200%;
+    transition: .4s ease-out;
+}
+.navBtnStyle:hover{
+    transform:scale(.98);
+    background-position: left;
+}
+

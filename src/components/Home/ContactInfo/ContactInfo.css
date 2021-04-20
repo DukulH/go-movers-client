@@ -1,0 +1,12 @@
+.contactDiv{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.ContactStyle{
+    padding: 50px;
+    background-color: #122333;
+    color: white;
+}

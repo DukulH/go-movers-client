@@ -1,0 +1,19 @@
+.uploadFileStyle{
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 16px;
+    letter-spacing: 2px;
+    color: lightseagreen;
+}
+.uploadFileStyle:hover{
+    transform: scale(1.04);
+}
+.uploadFileStyle.active{
+    color: lightseagreen;
+    font-size: 12px;
+}
+
+.uploadFileStyle span {
+    font-weight: normal;
+    font-size: 14px;
+}

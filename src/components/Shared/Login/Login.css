@@ -1,0 +1,32 @@
+.loginDisplayMain{
+    display: grid;
+    align-items: center;
+    height: 800px;
+}
+.loginDisplay{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 10px;
+}
+
+.loginDisplay input{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid salmon;
+}
+.loginDisplay input:focus{
+    box-shadow: none;
+}
+
+.socialIcon{
+    border: 1px solid #30373F;
+    color: white;
+    background-color: #30373F;
+    padding: 7px 12px;
+}
+
+.socialIcon:hover{
+    background-color: white;
+    color: #30373F;
+    border: 1px solid #30373F;
+}

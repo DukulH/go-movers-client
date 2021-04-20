@@ -1,0 +1,16 @@
+.materialStyle{
+    transform: scale(1.8);
+    color: #922c88;
+}
+
+@media screen and (max-width: 700px) {
+    .materialStyle{
+        font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .materialStyle{
+        font-size: 15px;
+    }
+  }

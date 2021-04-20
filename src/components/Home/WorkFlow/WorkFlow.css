@@ -1,0 +1,16 @@
+.inlineText{
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+     } 
+     
+.inlineText span { 
+         background:#fff; 
+         padding:0 10px; 
+     }
+     .card-display{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         grid-gap: 60px;
+     }
+

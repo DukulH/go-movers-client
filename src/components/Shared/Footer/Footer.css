@@ -1,0 +1,28 @@
+.footerHead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footerBody{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+}
+.footerEndText:hover{
+    color:#ED4C20;
+}
+.footerEndTextDisplay{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.footerIcon{
+    display: grid;
+    grid-template-columns: repeat(3,60px);
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.footerIcon :hover{
+    background-color:#ED4C20 ;
+    color: white;
+}

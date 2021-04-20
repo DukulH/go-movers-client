@@ -1,0 +1,11 @@
+.carouselStyle{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

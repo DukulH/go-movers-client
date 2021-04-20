@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+.sidebar {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 165px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: #922c88;
+    padding: 30px;
+    text-decoration: none;
+  }
+   
+  
+  
+  .sidebar a:hover {
+    background-color:rgb(248, 245, 245);
+    color: #922c88;
+    text-decoration: none;
+  }
+  .iconStyle{
+      font-size:35px;
+      color: #922c88;
+  }
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 80%;
+      height: auto;
+      position: relative;
+    }
+    .iconStyle{
+        font-size:20px
+    }
+    .sidebar a {float: left;padding: 20px;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+     
+    }
+    .iconStyle{
+        font-size:15px
+    }
+  }
